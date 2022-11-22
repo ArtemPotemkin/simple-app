@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     private lazy var firstLabel: UILabel = {
         let label = UILabel()
-        label.text = "Hey, man! How are you? 😎"
+        label.text = "Hello! How are you? 😎"
         label.font = .systemFont(ofSize: 25)
         return label
     } ()
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         firstLabel.translatesAutoresizingMaskIntoConstraints = false
         firstLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         firstLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        firstLabel.widthAnchor.constraint(equalToConstant: 300).isActive = true
+        firstLabel.widthAnchor.constraint(equalToConstant: 350).isActive = true
     }
 
 }
